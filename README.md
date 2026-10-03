@@ -1,5 +1,17 @@
 # Color Print Splitter (MultiColor Kit)
 
+> **Versión actual: 2.1.0** (Blender 4.2 – 5.x) → instalar `version_2.1.0/dist/color_print_splitter-2.1.0.zip`
+>
+> | Versión | Novedades |
+> |---|---|
+> | 2.1.0 | Exportar en **un 3MF** con cada pieza nombrada y con su color, en **carpetas por color** (lo que hacía Auto Color Exporter) o en STL sueltos. |
+> | 2.0.x | **Separar por colores**: lee un modelo pintado (3MF/OBJ), cose las uniones en T, limpia motas, alisa las fronteras y saca una pieza por color con su hueco y holgura en la base. Las zonas demasiado finas se marcan para pintar. |
+> | 1.2.0 | Todo en modo Objeto, booleanas rápidas, piezas vaciadas. |
+> | 1.1.0 | Primera versión empaquetada (espigas e insertos). |
+>
+> Cada carpeta `version_X` tiene el código y su ZIP en `dist/`. Detalle en el `LEEME.md` de cada versión.
+
+
 Complemento para Blender que permite dividir un modelo en piezas para imprimirlas por separado en distintos colores y ensamblarlas mediante espigas o insertos, con adhesivo si es necesario.
 
 Permite preparar modelos para impresión multicolor sin utilizar sistemas como AMS o MMU.
