@@ -1,9 +1,10 @@
 # Color Print Splitter (MultiColor Kit)
 
-> **Versión actual: 2.1.0** (Blender 4.2 – 5.x) → instalar `version_2.1.0/dist/color_print_splitter-2.1.0.zip`
+> **Versión actual: 2.1.1** (Blender 4.2 – 5.x) → instalar `version_2.1.1/dist/color_print_splitter-2.1.1.zip`
 >
 > | Versión | Novedades |
 > |---|---|
+> | 2.1.1 | Zonas finas pintadas por las dos caras (lazos, orejas): la base se abre limpia ahí y las piezas llegan a la mitad; sin paredes de grosor cero ni aristas no-manifold. |
 > | 2.1.0 | Exportar en **un 3MF** con cada pieza nombrada y con su color, en **carpetas por color** (lo que hacía Auto Color Exporter) o en STL sueltos. |
 > | 2.0.x | **Separar por colores**: lee un modelo pintado (3MF/OBJ), cose las uniones en T, limpia motas, alisa las fronteras y saca una pieza por color con su hueco y holgura en la base. Las zonas demasiado finas se marcan para pintar. |
 > | 1.2.0 | Todo en modo Objeto, booleanas rápidas, piezas vaciadas. |
