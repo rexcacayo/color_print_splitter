@@ -83,3 +83,6 @@ En los insertos, la holgura se calcula mediante un desplazamiento aproximado de 
 - La asignación de colores y la exportación se realizan con otras herramientas, como **Auto Color Exporter**.
 
 El objeto original queda oculto en la lista de objetos de Blender. Puedes volver a mostrarlo desde allí o deshacer una operación con **Ctrl + Z**.
+## Licencia
+
+GPL-3.0-or-later. Gratis para usar, modificar y compartir; si redistribuyes una versión modificada, publica también su código.
