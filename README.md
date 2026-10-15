@@ -85,4 +85,4 @@ En los insertos, la holgura se calcula mediante un desplazamiento aproximado de 
 El objeto original queda oculto en la lista de objetos de Blender. Puedes volver a mostrarlo desde allí o deshacer una operación con **Ctrl + Z**.
 ## Licencia
 
-GPL-3.0-or-later. Gratis para usar, modificar y compartir; si redistribuyes una versión modificada, publica también su código.
+GPL-3.0-or-later (ver [LICENSE](LICENSE)). Gratis para usar, modificar y compartir; si redistribuyes una versión modificada, publica también su código. Es la licencia que exige extensions.blender.org.

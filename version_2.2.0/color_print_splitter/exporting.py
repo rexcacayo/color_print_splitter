@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Ricardo Lugaresi
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Exportar las piezas: un 3MF con colores, o STL agrupados por color en carpetas."""
 import io
 import zipfile

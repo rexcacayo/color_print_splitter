@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Ricardo Lugaresi
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Lector propio de 3MF pintados (Bambu Studio, Orca Slicer, PrusaSlicer).
 
 El importador de Blender no siempre trae los colores del pincel: los 3MF guardan la
