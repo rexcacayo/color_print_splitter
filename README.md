@@ -4,7 +4,7 @@
 >
 > | Versión | Novedades |
 > |---|---|
-> | 2.3.1 | Los 3MF pintados importados ponen el color también en el «Base Color» (Blender 5): antes 3D LAB y el GLB los veían grises. |
+> | 2.3.1 | 3MF pintados: el lector ya funciona sin ventana (3D LAB fallaba siempre y abría con el importador de Blender, que mezclaba o perdía colores) y pone el color en el «Base Color» de Blender 5 (antes salía gris). |
 > | 2.3.0 | **Textura → colores**: modelos de IA con textura (Meshy, Tripo) pasan a pocos colores por cara, un material por color. Exportar como **3MF pintado**: la pieza entera con la pintura por cara para Orca/Bambu y 3D LAB. |
 > | 2.2.0 | Lector propio de 3MF pintados (Bambu, Orca, Prusa): trae todos los colores del pincel y de cada pieza, que el importador de Blender perdía. Modelos que ya vienen en piezas por color: se separan y la base recibe sus huecos. |
 > | 2.1.1 | Zonas finas pintadas por las dos caras (lazos, orejas): la base se abre limpia ahí y las piezas llegan a la mitad; sin paredes de grosor cero ni aristas no-manifold. |

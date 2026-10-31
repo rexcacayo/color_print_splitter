@@ -234,7 +234,8 @@ def import_painted(context, path):
     me.polygons.foreach_set('material_index', mi)
     me.update(calc_edges=True)
     obj = bpy.data.objects.new(name, me)
-    context.collection.objects.link(obj)
+    # sin ventana (3D LAB) context.collection puede ser None: entonces va a la colección de la escena
+    (context.collection or context.scene.collection).objects.link(obj)
     obj['taller_unidad'] = 'M'
     for o in context.selected_objects:
         o.select_set(False)
