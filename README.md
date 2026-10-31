@@ -1,9 +1,10 @@
 # Color Print Splitter (MultiColor Kit)
 
-> **Versión actual: 2.2.0** (Blender 4.2 – 5.x) → instalar `version_2.2.0/dist/color_print_splitter-2.2.0.zip`
+> **Versión actual: 2.3.0** (Blender 4.2 – 5.x) → instalar `version_2.3.0/dist/color_print_splitter-2.3.0.zip`
 >
 > | Versión | Novedades |
 > |---|---|
+> | 2.3.0 | **Textura → colores**: modelos de IA con textura (Meshy, Tripo) pasan a pocos colores por cara, un material por color. Exportar como **3MF pintado**: la pieza entera con la pintura por cara para Orca/Bambu y 3D LAB. |
 > | 2.2.0 | Lector propio de 3MF pintados (Bambu, Orca, Prusa): trae todos los colores del pincel y de cada pieza, que el importador de Blender perdía. Modelos que ya vienen en piezas por color: se separan y la base recibe sus huecos. |
 > | 2.1.1 | Zonas finas pintadas por las dos caras (lazos, orejas): la base se abre limpia ahí y las piezas llegan a la mitad; sin paredes de grosor cero ni aristas no-manifold. |
 > | 2.1.0 | Exportar en **un 3MF** con cada pieza nombrada y con su color, en **carpetas por color** (lo que hacía Auto Color Exporter) o en STL sueltos. |
