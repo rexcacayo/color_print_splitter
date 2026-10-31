@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Ricardo Lugaresi
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-bl_info = {'name': 'Color Print Splitter', 'author': 'Ricardo Lugaresi', 'version': (2, 3, 0),
+bl_info = {'name': 'Color Print Splitter', 'author': 'Ricardo Lugaresi', 'version': (2, 3, 1),
            'blender': (4, 2, 0), 'location': 'Vista 3D > N > Color Splitter',
            'description': 'Separa un modelo pintado en una pieza por color, con el hueco hecho en la base para pegarlas. Todo en modo Objeto',
            'category': 'Object'}

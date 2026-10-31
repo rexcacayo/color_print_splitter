@@ -1,4 +1,4 @@
-# Color Print Splitter 2.3.0
+# Color Print Splitter 2.3.1
 
 Complemento clásico para Blender 4.2 a 5.x (probado en 5.2.1 LTS). Sin dependencias externas (usa numpy, que viene con Blender).
 

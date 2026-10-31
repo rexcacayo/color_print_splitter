@@ -214,6 +214,13 @@ def import_painted(context, path):
         mat = bpy.data.materials.get(name) or bpy.data.materials.new(name)
         r, g, b = (int(hx[i:i + 2], 16) / 255 for i in (1, 3, 5))
         mat.diffuse_color = (_srgb_to_linear(r), _srgb_to_linear(g), _srgb_to_linear(b), 1.0)
+        # Blender 5 crea los materiales con nodos: el color que ven el visor, el GLB y 3D LAB es el
+        # «Base Color» del BSDF, no diffuse_color. Si no se pone, todo sale gris.
+        nt = getattr(mat, 'node_tree', None)
+        if nt is not None:
+            for node in nt.nodes:
+                if node.type == 'BSDF_PRINCIPLED' and not node.inputs['Base Color'].is_linked:
+                    node.inputs['Base Color'].default_value = mat.diffuse_color
         mats.append(mat)
     index = {e: i for i, e in enumerate(used)}
     mi = np.array([index[int(s)] for s in S], np.int32)

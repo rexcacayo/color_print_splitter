@@ -6,7 +6,7 @@ import sys, zipfile
 from pathlib import Path
 here = Path(__file__).resolve().parent
 pkg = next(p for p in here.iterdir() if p.is_dir() and (p / '__init__.py').exists())
-version = '2.3.0'
+version = '2.3.1'
 out = here / 'dist' / f'{pkg.name}-{version}.zip'
 out.parent.mkdir(exist_ok=True)
 with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
